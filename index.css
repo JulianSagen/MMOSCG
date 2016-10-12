@@ -19,6 +19,11 @@
                         Main CSS - Yanis
 */
 
-body {
+@charset "UTF-8";
 
+body {
+    background-color: #FFF5EE;
+    width:100%;
+    margin:0;
+    text-align:center;
 }
