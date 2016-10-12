@@ -21,9 +21,72 @@
 
 @charset "UTF-8";
 
+@media only screen and (max-width: 650px) {
+    #Nav1 {
+        display:none;
+    }
+}
+
 body {
     background-color: #FFF5EE;
     width:100%;
     margin:0;
-    text-align:center;
 }
+
+#Nav1 {
+    background: url(Images/pattern1.png);
+    background-repeat: repeat;
+    height:100vh;
+    width:15%;
+    float:left;
+}
+
+#Button1{
+    height:70px;
+    width:100%;
+    background-color:yellow;
+    float:left;
+}
+
+#Button2{
+    height:70px;
+    width:100%;
+    background-color:red;
+    float:left;
+}
+
+#Button3{
+    height:70px;
+    width:100%;
+    background-color: green;
+    float:left;
+}
+
+#Button4{
+    height:40px;
+    width:50%;
+    float:left;  
+    background-color: blue;
+}
+
+#Button5{
+    height:40px;
+    width:50%;
+    float:left;
+    background-color: deepskyblue;
+}
+
+#Button6{
+    height:40px;
+    width:50%;
+    float:left;
+    background-color: saddlebrown;
+}
+
+#Button7{
+    height:40px;
+    width:50%;
+    float:left;
+    background-color: orange;
+}
+
