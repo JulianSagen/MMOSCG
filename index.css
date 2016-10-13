@@ -25,14 +25,40 @@ body {
     margin:0;
 }
 
+#Logo {
+        display:none;
+}
+
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
 
 @media only screen and (min-width: 650px) {
     nav {
-        background-color:red;
+        background-color:lightblue;
         height:100vh;
         width:15%;
         float:left;
+        max-width:150px;
+    }
+    #Button1 {
+        height:10vh;
+        width:100%;
+        background-color:blue;
+        margin:0;
+        overflow:hidden;
+    }
+    #Button2 {
+        height:10vh;
+        width:100%;
+        background-color:red;
+        margin:0;
+        overflow:hidden;
+    }
+    #Button3 {
+        height:10vh;
+        width:100%;
+        background-color:green;
+        margin:0;
+        overflow:hidden;
     }
 }
 
@@ -40,9 +66,40 @@ body {
 
 @media only screen and (max-width: 650px) {
     nav {
-        background-color:pink;
-        height:150px;
+        background-color:lawngreen;
+        height:70px;
         width:100%;
         float:left;
+        overflow:hidden;
+    }
+    #Button1 {
+        height:100%;
+        width:50px;
+        background-color:blue;
+        margin:0;
+        overflow:hidden;
+        float:left;
+    }
+    #Button2 {
+        height:100%;
+        width:50px;
+        background-color:red;
+        margin:0;
+        overflow:hidden;
+        float:left;
+    }
+    #Button3 {
+        height:100%;
+        width:50px;
+        background-color:green;
+        margin:0;
+        overflow:hidden;
+        float:left;
+    }
+    #Logo {
+        display:block;
+        height:70px;
+        float:right;
     }
 }
+
