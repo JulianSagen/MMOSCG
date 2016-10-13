@@ -15,11 +15,9 @@
                  ******        ***        ******
                    ***************************
                       *********************
-                     
+
                         Main CSS - Yanis
 */
-
-@charset "UTF-8";
 
 @media only screen and (max-width: 650px) {
     #Nav1 {
@@ -65,7 +63,7 @@ body {
 #Button4{
     height:40px;
     width:50%;
-    float:left;  
+    float:left;
     background-color: blue;
 }
 
@@ -89,4 +87,3 @@ body {
     float:left;
     background-color: orange;
 }
-
