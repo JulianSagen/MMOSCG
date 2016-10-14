@@ -52,13 +52,14 @@ p{
     height: 2em;
 }
 .VerticalImg a img{
-    width: 20em;
+    width: 80%;
 }
 .Vertical{
     width: 30%;
     margin-top: 2em;
-    
-    
+}
+#Follow{
+    width: 4em;
 }
 
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
@@ -101,6 +102,7 @@ p{
     #Verticals{
         display:flex;
         align-items: center;
+    }
     }
  
 }
