@@ -1,4 +1,4 @@
-﻿/*
+/*
                                  ////
                                 ////
                                ////
@@ -18,11 +18,16 @@
 
                         Main CSS - Yanis
 */
-
+* {
+    margin: 0;
+}
 body {
     background-color: #FFF5EE;
     width:100%;
     margin:0;
+}
+#Contentwrapper{
+
 }
 
 #Logo {
@@ -65,6 +70,9 @@ body {
         margin:0;
         overflow:hidden;
     }
+    #Language{
+    height: 2em;
+    float: right;
 }
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
@@ -108,5 +116,8 @@ body {
         height:70px;
         float:right;
     }
+
+}
+
 }
 
