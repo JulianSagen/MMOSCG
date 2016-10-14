@@ -52,7 +52,7 @@ p{
     height: 2em;
 }
 .VerticalImg a img{
-    width: 100%;
+    width: 20em;
 }
 .Vertical{
     width: 30%;
@@ -97,6 +97,10 @@ p{
         background-color:green;
         margin:0;
         overflow:hidden;
+    }
+    #Verticals{
+        display:flex;
+        align-items: center;
     }
  
 }
