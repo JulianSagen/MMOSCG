@@ -34,10 +34,15 @@ body {
 @media only screen and (min-width: 650px) {
     nav {
         background-color:lightblue;
-        height:100vh;
+        height:100%;
         width:15%;
         float:left;
         max-width:150px;
+        position: fixed;
+    }
+    #Contentwrapper{
+        margin-left:150px;
+
     }
     #Button1 {
         height:10vh;
@@ -71,7 +76,9 @@ body {
         width:100%;
         float:left;
         overflow:hidden;
+        position:fixed;
     }
+    
     #Button1 {
         height:100%;
         width:50px;
