@@ -1,4 +1,4 @@
-/*
+﻿/*
                                  ////
                                 ////
                                ////
@@ -66,7 +66,7 @@ body {
 
 @media only screen and (max-width: 650px) {
     nav {
-        background-color:lawngreen;
+        background-color: #E9EBEE;
         height:70px;
         width:100%;
         float:left;
