@@ -27,11 +27,38 @@ body {
     margin:0;
 }
 #Contentwrapper{
-
+    margin-top: 2em;
 }
 
 #Logo {
         display:none;
+}
+#Language{
+    max-height: 4em;
+    top:0;
+    position: fixed;
+    right: 0;
+    
+}
+h1{
+    text-align: center;
+  
+}
+p{
+    margin-top: 2em;
+}
+.VerticalApp img{
+    width: 2em;
+    height: 2em;
+}
+.VerticalImg a img{
+    width: 100%;
+}
+.Vertical{
+    width: 30%;
+    margin-top: 2em;
+    
+    
 }
 
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
@@ -44,6 +71,7 @@ body {
         float:left;
         max-width:150px;
         position: fixed;
+        top: 0;
     }
     #Contentwrapper{
         margin-left:150px;
@@ -70,9 +98,7 @@ body {
         margin:0;
         overflow:hidden;
     }
-    #Language{
-    height: 2em;
-    float: right;
+ 
 }
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
@@ -116,6 +142,9 @@ body {
         height:70px;
         float:right;
     }
+       #Language{
+    height: 1em;
+    top: 0;    
 
 }
 
