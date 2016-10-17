@@ -25,6 +25,7 @@ body {
     background-color: #FFF5EE;
     width:100%;
     margin:0;
+
 }
 #Contentwrapper{
     margin-top: 2em;
@@ -38,11 +39,13 @@ body {
     top:0;
     position: fixed;
     right: 0;
-    
+
 }
 h1{
     text-align: center;
-  
+    font-family: Verdana;
+    font-weight: bold;
+
 }
 p{
     margin-top: 2em;
@@ -62,7 +65,14 @@ p{
     margin-top: 2em;
 }
 #Follow{
-    width: 4em;
+    width: 20em;
+    display: inline-block;
+}
+.SocialIcon {
+    margin: 3px;
+    display: inline-block;
+    width: 3em;
+    
 }
 
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
@@ -118,7 +128,7 @@ p{
         align-items: center;
     }
     }
- 
+
 }
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
@@ -131,7 +141,11 @@ p{
         float:left;
         overflow:hidden;
         position:fixed;
+<<<<<<< HEAD
     }   
+=======
+    }
+>>>>>>> origin/master
 
     #Button1 {
         height:100%;
@@ -164,9 +178,8 @@ p{
     }
        #Language{
     height: 1em;
-    top: 0;    
+    top: 0;
 
 }
 
 }
-
