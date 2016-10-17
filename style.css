@@ -49,7 +49,7 @@ h1{
 }
 p{
     margin-top: 2em;
-    color: white; 
+    color: white;
     text-shadow: 0px 0px 2px black;
     word-spacing: 10px;
 }
@@ -86,7 +86,7 @@ p{
     margin: 3px;
     display: inline-block;
     width: 3em;
-    
+
 }
 
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
@@ -141,9 +141,10 @@ p{
         display:flex;
         align-items: center;
     }
+    footer {
+      background-color: darkgrey;
     }
 
-}
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
 
@@ -155,7 +156,7 @@ p{
         float:left;
         overflow:hidden;
         position:fixed;
-    }   
+    }
 
     #Button1 {
         height:100%;
