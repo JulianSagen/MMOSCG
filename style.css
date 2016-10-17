@@ -53,6 +53,20 @@ p{
     text-shadow: 0px 0px 2px black;
     word-spacing: 10px;
 }
+.app{
+    display: block;
+}
+#downloads{
+    float: left;
+}
+#screen{
+    display: inline-block;
+}
+.store a img{
+    width: 2em;
+    height: auto;
+}
+
 .VerticalApp img{
     width: 2em;
     height: 2em;
