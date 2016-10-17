@@ -35,10 +35,8 @@ body {
         display:none;
 }
 #Language{
-    max-height: 4em;
-    top:0;
-    position: fixed;
-    right: 0;
+    width: 3em;
+    float: right
 
 }
 h1{
@@ -93,15 +91,20 @@ p{
 
 @media only screen and (min-width: 650px) {
     nav {
-        background-color:lightblue;
-        height:100%;
-        width:15%;
+        background-color:darkblue;
+        height:10%;
+        width:100%;
         float:left;
-        max-width:80px;
         position: fixed;
         top: 0;
         margin-right: 20px;
-        opacity: 0.8;
+        display: inline-block;
+    }
+    #Dropdown div{
+        display: inline-block;
+        float: left;
+        width: 9em;
+        
     }
     nav a:link, a:visited {
         text-decoration: none;
@@ -114,25 +117,23 @@ p{
     }
     #Contentwrapper{
         margin:0% 10% 0% 20%;
+        margin-top: 10%;
 
     }
     #Button1 {
         height:10vh;
-        width:100%;
         background-color:blue;
         margin:0;
         overflow:hidden;
     }
     #Button2 {
         height:10vh;
-        width:100%;
         background-color:red;
         margin:0;
         overflow:hidden;
     }
     #Button3 {
         height:10vh;
-        width:100%;
         background-color:green;
         margin:0;
         overflow:hidden;
