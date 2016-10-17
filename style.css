@@ -25,6 +25,7 @@ body {
     background-color: #FFF5EE;
     width:100%;
     margin:0;
+
 }
 #Contentwrapper{
     margin-top: 2em;
@@ -38,14 +39,17 @@ body {
     top:0;
     position: fixed;
     right: 0;
-    
+
 }
 h1{
     text-align: center;
-  
+    font-family: Verdana;
+    font-weight: bold;
+
 }
 p{
     margin-top: 2em;
+    font-family: Verdana;
 }
 .VerticalApp img{
     width: 2em;
@@ -104,7 +108,7 @@ p{
         align-items: center;
     }
     }
- 
+
 }
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
@@ -118,7 +122,7 @@ p{
         overflow:hidden;
         position:fixed;
     }
-    
+
     #Button1 {
         height:100%;
         width:50px;
@@ -150,9 +154,8 @@ p{
     }
        #Language{
     height: 1em;
-    top: 0;    
+    top: 0;
 
 }
 
 }
-
