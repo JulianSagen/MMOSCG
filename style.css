@@ -63,7 +63,14 @@ p{
     margin-top: 2em;
 }
 #Follow{
-    width: 4em;
+    width: 20em;
+    display: inline-block;
+}
+.SocialIcon {
+    margin: 3px;
+    display: inline-block;
+    width: 3em;
+    
 }
 
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
