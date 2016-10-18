@@ -18,31 +18,37 @@ nav {
     display: inline-block;
 }
 
-nav a {
-
+nav div {
+  margin: 0;
 }
 
+nav h1{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 10px 0 10px;
+}
+
+
+
 #Logo {
-        display:none;
+    display:none;
 }
 
 #Language{
     height: 100%;
-        float: right
+    float: right;
 
 }
 h1{
     text-align: center;
     font-family: Verdana;
     font-weight: bold;
-
 }
 
 p{
     margin-top: 2em;
-    color: white;
-    text-shadow: 0px 0px 2px black;
-    word-spacing: 10px;
+    color: black;
+    margin: 10px;
 }
 #Content{
     background-color: #F7F7F7;
@@ -130,7 +136,6 @@ footer{
     nav h1{
         text-align: center;
         font-size: 16px;
-        margin: 30% 10% 0% 10%;
     }
 
     #Button1 {
