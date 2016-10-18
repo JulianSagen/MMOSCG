@@ -100,11 +100,9 @@ p{
         margin-right: 20px;
         display: inline-block;
     }
-    #Dropdown div{
-        display: inline-block;
+    #Dropdown  div{
         float: left;
-        width: 9em;
-        
+        width: 10em;
     }
     nav a:link, a:visited {
         text-decoration: none;
@@ -125,6 +123,7 @@ p{
         background-color:blue;
         margin:0;
         overflow:hidden;
+        width: 20em
     }
     #Button2 {
         height:10vh;
