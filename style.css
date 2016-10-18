@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    background-color: #FFF5EE;
+    background-color: #F7F7F7;
     width:100%;
     margin:0;
 }
@@ -44,36 +44,45 @@ p{
     text-shadow: 0px 0px 2px black;
     word-spacing: 10px;
 }
-
+#Content{
+    background-color: #F7F7F7;
+}
 .app{
+    overflow:auto;
+    width: 100%;
+    height: auto;
+}
+#lang{
+    background-color:red;
+}
+#bokstav{
+    background-color:blue;
+}
+#bil{
+    background-color:green;
+}
+.text{
     display: block;
+    height: auto;
+    width: 50%;
+    background-color: black;
 }
-
-#downloads{
-    float: left;
+.screenshot img{
+    float: right;
+    width: 700px;
+    height: auto;
 }
-
+.store img{
+    width: auto;
+    height: 90px;
+    display: inline-block;
+}
 #screen{
     display: inline-block;
 }
-
 .store a img{
     width: 2em;
     height: auto;
-}
-
-.VerticalApp img{
-    width: 2em;
-    height: 2em;
-}
-
-.VerticalImg a img{
-    width: 80%;
-}
-
-.Vertical{
-    width: 30%;
-    margin-top: 2em;
 }
 
 #Follow{
