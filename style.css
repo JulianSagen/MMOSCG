@@ -22,10 +22,6 @@ nav a {
 
 }
 
-#Contentwrapper{
-    margin-top: 2em;
-}
-
 #Logo {
         display:none;
 }
@@ -95,6 +91,7 @@ footer{
     display: flex;
     padding: 1em ;
 }
+
 
 
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
@@ -191,12 +188,8 @@ footer{
         float:left;
     }
     #Button3 {
-        height:100%;
-        width:50px;
         background-color:green;
-        margin:0;
-        overflow:hidden;
-        float:left;
+
     }
     #Logo {
         display:block;
