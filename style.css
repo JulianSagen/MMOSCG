@@ -22,10 +22,6 @@ nav a {
 
 }
 
-#Contentwrapper{
-    margin-top: 2em;
-}
-
 #Logo {
         display:none;
 }
@@ -91,72 +87,6 @@ p{
     width: 3em;
 }
 
-/* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
-
-@media only screen and (min-width: 650px) {
-    nav {
-        background-color:darkblue;
-        height:10%;
-        width:100%;
-        float:left;
-        position: fixed;
-        top: 0;
-        margin-right: 20px;
-        display: inline-block;
-    }
-
-    #Dropdown  div{
-        float: left;
-        width: 10em;
-    }
-
-    nav a:link, a:visited {
-        text-decoration: none;
-        color: black;
-    }
-
-    nav h1{
-        text-align: center;
-        font-size: 16px;
-        margin: 30% 10% 0% 10%;
-    }
-
-    #Button1 {
-        height:10vh;
-        background-color: blue;
-        margin: 0;
-        overflow: hidden;
-        width: 20em;
-
-    }
-
-    #Button2 {
-        height:10vh;
-        background-color:red;
-        margin:0;
-        overflow:hidden;
-        width: 20em;
-        text-align: center;
-    }
-
-    #Button3 {
-        height:10vh;
-        background-color:green;
-        margin:0;
-        overflow:hidden;
-        width: 20em;
-    }
-
-    #Verticals{
-        display:flex;
-        align-items: center;
-    }
-
-    footer {
-      background-color: darkgrey;
-    }
-
-
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
 
 @media only screen and (max-width: 650px) {
@@ -186,12 +116,8 @@ p{
         float:left;
     }
     #Button3 {
-        height:100%;
-        width:50px;
         background-color:green;
-        margin:0;
-        overflow:hidden;
-        float:left;
+
     }
     #Logo {
         display:block;
