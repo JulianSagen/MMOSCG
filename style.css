@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color:darkblue;
+    background-color:#1b63e8;
     height:5em;
     width:100%;
     float:left;
@@ -35,7 +35,6 @@ nav h1{
 }
 
 
-
 h1{
     text-align: center;
     font-family: Verdana;
@@ -56,13 +55,13 @@ p{
     height: auto;
 }
 #lang{
-    background-color:red;
+    background-color:#ff3f3f;
 }
 #bokstav{
-    background-color:blue;
+    background-color:#1b63e8;
 }
 #bil{
-    background-color:green;
+    background-color:#11c625;
 }
 .text{
     display: block;
