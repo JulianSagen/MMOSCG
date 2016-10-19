@@ -103,6 +103,33 @@ footer{
     display: flex;
     padding: 1em ;
 }
+#Follow {
+    background-color: #eae8ff;
+    width:auto;
+    height:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    float:left;
+    border-radius: 20px;
+    padding:10px;
+    font-family: Verdana;
+}
+#About {
+    direction: rtl;
+    bottom:0;
+    float:right;
+    font-family: Verdana;
+    background-color: red;
+    vertical-align: middle;
+    height:auto;
+}
+#About p{
+    color: #ffffff;
+    vertical-align: middle;
+}
+#About a{
+    color: lightblue;
+}
 
 
 
@@ -180,8 +207,6 @@ footer{
         align-items: center;
     }
 
-    footer {
-    }
 
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
