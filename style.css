@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color:darkblue;
-    height: 40px;
+    height:5em;
     width:100%;
     float:left;
     position: fixed;
@@ -110,19 +110,13 @@ footer{
 
 @media only screen and (min-width: 650px) {
     nav {
-        background-color:darkblue;
-        height:10%;
-        width:100%;
-        float:left;
-        position: fixed;
-        top: 0;
-        margin-right: 20px;
-        display: inline-block;
+
     }
 
     #Dropdown  div{
         float: left;
         width: 10em;
+        height:5em;
     }
     .Language{
         position: relative;
@@ -159,7 +153,6 @@ footer{
     }
 
     #Button1 {
-        height:10vh;
         background-color: blue;
         margin: 0;
         overflow: hidden;
@@ -168,7 +161,6 @@ footer{
     }
 
     #Button2 {
-        height:10vh;
         background-color:red;
         margin:0;
         overflow:hidden;
@@ -177,7 +169,6 @@ footer{
     }
 
     #Button3 {
-        height:10vh;
         background-color:green;
         margin:0;
         overflow:hidden;
