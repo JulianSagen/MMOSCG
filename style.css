@@ -29,9 +29,9 @@ nav h1{
 }
 
 
-
-#Logo {
-    display:none;
+#Logo img {
+    width: 7em;
+    align-content: center;
 }
 
 
