@@ -152,8 +152,8 @@ footer{
     }
     .Language img{
         float: right;
-        width: 5.5em;
-        height: 50%;
+        width: 7.5em;
+        height: 60%;
         opacity: 0.8;
         z-index: -1;
         position: relative;
@@ -164,11 +164,11 @@ footer{
     .Language h5{
         color: white;
         float: right;
-        font-size: 18px;
-        margin-top: 38px;
+        font-size: 20px;
+        margin-top: 55px;
         z-index: 2;
         position: relative;
-        left: 60px; 
+        left: 82px; 
     }
 
     nav a:link, a:visited {
