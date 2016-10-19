@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color:darkblue;
-    height: 40px;
+    height:5em;
     width:100%;
     float:left;
     position: fixed;
@@ -113,14 +113,7 @@ footer{
 
 @media only screen and (min-width: 650px) {
     nav {
-        background-color:darkblue;
-        height:10%;
-        width:100%;
-        float:left;
-        position: fixed;
-        top: 0;
-        margin-right: 20px;
-        display: inline-block;
+
     }
 
     #Dropdown  div{
