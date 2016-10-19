@@ -34,11 +34,8 @@ nav h1{
     display:none;
 }
 
-#Language{
-    height: 100%;
-    float: right;
 
-}
+
 h1{
     text-align: center;
     font-family: Verdana;
@@ -126,6 +123,29 @@ footer{
     #Dropdown  div{
         float: left;
         width: 10em;
+    }
+    .Language{
+        position: relative;
+    }
+    .Language img{
+        float: right;
+        width: 5.5em;
+        height: 50%;
+        opacity: 0.8;
+        z-index: -1;
+        position: relative;
+        left: 0;
+        top: 0;
+
+    }
+    .Language h5{
+        color: white;
+        float: right;
+        font-size: 18px;
+        margin-top: 38px;
+        z-index: 2;
+        position: relative;
+        left: 60px; 
     }
 
     nav a:link, a:visited {
