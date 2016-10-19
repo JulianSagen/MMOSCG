@@ -27,11 +27,15 @@ nav h1{
     font-size: 16px;
     padding: 10px 10px 0 10px;
 }
-
+#Logo{
+margin-top: 5.3em;
+}
 
 #Logo img {
-    width: 7em;
-    align-content: center;
+    
+    width: 12em;
+    display: block;
+    margin: 0 auto; 
 }
 
 
