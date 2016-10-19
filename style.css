@@ -115,13 +115,12 @@ footer{
     font-family: Verdana;
 }
 #About {
-    direction: rtl;
     bottom:0;
     float:right;
     font-family: Verdana;
-    background-color: red;
     vertical-align: middle;
-    height:auto;
+    margin-left:20px;
+    margin-top:80px;
 }
 #About p{
     color: #ffffff;
