@@ -139,6 +139,9 @@ footer{
     nav {
 
     }
+    nav h1{
+        margin-top: 12%;
+    }
 
     #Dropdown  div{
         float: left;
