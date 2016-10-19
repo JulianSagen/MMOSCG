@@ -119,6 +119,7 @@ footer{
     #Dropdown  div{
         float: left;
         width: 10em;
+        height:5em;
     }
 
     nav a:link, a:visited {
@@ -132,7 +133,6 @@ footer{
     }
 
     #Button1 {
-        height:10vh;
         background-color: blue;
         margin: 0;
         overflow: hidden;
@@ -141,7 +141,6 @@ footer{
     }
 
     #Button2 {
-        height:10vh;
         background-color:red;
         margin:0;
         overflow:hidden;
@@ -150,7 +149,6 @@ footer{
     }
 
     #Button3 {
-        height:10vh;
         background-color:green;
         margin:0;
         overflow:hidden;
