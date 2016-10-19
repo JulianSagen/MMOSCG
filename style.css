@@ -54,45 +54,45 @@ p{
     background-color: #F7F7F7;
 }
 .app{
+    float: left;
     overflow:auto;
     width: 100%;
     height: auto;
 }
+.app div{
+    margin: 20px;
+    margin-bottom:5px;
+}
 #lang{
     background-color:#ff3f3f;
-    margin-bottom: 5px;
 }
 #bokstav{
     background-color:#1b63e8;
-    margin-bottom: 5px;
 }
 #bil{
     background-color:#11c625;
-    margin-bottom: 5px;
-    
+   
 }
 .text{
-    display: block;
+    display: inline-block;
     height: auto;
-    width: 50%;
-    background-color: black;
+    width: auto;
+    background-color: white;
+}
+.screenshot{
+    float: right;
 }
 .screenshot img{
-    float: right;
-    width: 700px;
+    width: 400px;
     height: auto;
 }
-.store img{
+#store{
+    margin-bottom:20px;
+}
+#store img{
     width: auto;
     height: 90px;
-    display: inline-block;
-}
-#screen{
-    display: inline-block;
-}
-.store a img{
-    width: 2em;
-    height: auto;
+    float: left;
 }
 
 #Follow{
