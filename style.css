@@ -21,6 +21,9 @@ nav {
 nav div {
   margin: 0;
 }
+nav img{
+    height: 5em;
+}
 
 nav h1{
     text-align: center;
