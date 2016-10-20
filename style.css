@@ -21,6 +21,10 @@ nav {
 nav div {
   margin: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+    }
 nav img{
     height: 5em;
 }
@@ -29,23 +33,37 @@ nav h1{
     text-align: center;
     font-size: 16px;
     padding: 10px 10px 0 10px;
+    margin-top: 12%;
+
 }
 #Logo{
 margin-top: 5.3em;
 }
-
 #Logo img {
     
     width: 12em;
     display: block;
     margin: 0 auto; 
 }
-
-
+#Dropdown  div{
+        float: left;
+        width: 10em;
+        height:5em;
+    }
+#Button1{
+    background-color: #33ff33;
+}
+#Button2{
+    background-color: orange;
+}
+#Button3{
+    background-color: #6666ff;
+}
 h1{
     text-align: center;
     font-family: Verdana;
     font-weight: bold;
+    font-size: 16px;
 }
 
 p{
@@ -69,6 +87,26 @@ p{
 #lang{
     background-color:#ff3f3f;
 }
+.Language{
+        float: right;
+}
+.Language img{
+    float: right;
+    width: 7.5em;
+    z-index: -1;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.Language h5{
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-top: 55px;
+    z-index: 2;
+    position: relative;
+    left: 82px; 
+    }
 #bokstav{
     background-color:#1b63e8;
 }
@@ -140,128 +178,19 @@ footer{
     color: lightblue;
 }
 
-
-
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
 
 @media only screen and (min-width: 650px) {
-    nav {
-
-    }
-    nav h1{
-        margin-top: 12%;
-    }
-
-
-    #Dropdown  div{
-        float: left;
-        width: 10em;
-        height:5em;
-    }
-    .Language{
-        position: relative;
-    }
-    .Language img{
-        float: right;
-        width: 7.5em;
-        height: 60%;
-        z-index: -1;
-        position: relative;
-        left: 0;
-        top: 0;
-
-    }
-    .Language h5{
-        color: white;
-        float: right;
-        font-size: 20px;
-        margin-top: 55px;
-        z-index: 2;
-        position: relative;
-        left: 82px; 
-    }
-
-    nav a:link, a:visited {
-        text-decoration: none;
-        color: black;
-    }
-
-    nav h1{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    #Button1 {
-        background-color: blue;
-        margin: 0;
-        overflow: hidden;
-        width: 20em;
-
-    }
-
-    #Button2 {
-        background-color:red;
-        margin:0;
-        overflow:hidden;
-        width: 20em;
-        text-align: center;
-    }
-
-    #Button3 {
-        background-color:green;
-        margin:0;
-        overflow:hidden;
-        width: 20em;
-    }
-
     #Verticals{
         display:flex;
         align-items: center;
     }
 
-
-
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
 
 @media only screen and (max-width: 650px) {
-    nav {
-        background-color: #E9EBEE;
-        height:70px;
-        width:100%;
-        float:left;
-        overflow:hidden;
-        position:fixed;
-    }
-
-    #Button1 {
-        height:100%;
-        width:50px;
-        background-color:blue;
-        margin:0;
-        overflow:hidden;
-        float:left;
-    }
-    #Button2 {
-        height:100%;
-        width:50px;
-        background-color:red;
-        margin:0;
-        overflow:hidden;
-        float:left;
-    }
-    #Button3 {
-        background-color:green;
-
-    }
     #Logo {
-        display:block;
-        height:70px;
-        float:right;
-    }
-       #Language{
-    height: 1em;
-    top: 0;
 
-}
+    }
 
 }
