@@ -79,9 +79,11 @@ p{
     height: auto;
     width: auto;
     background-color: white;
+    float: right;
+    direction: rtl;
 }
 .screenshot{
-    float: right;
+    float: left;
 }
 .screenshot img{
     width: 400px;
