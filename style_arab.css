@@ -26,6 +26,7 @@ nav h1{
     text-align: center;
     font-size: 16px;
     padding: 10px 10px 0 10px;
+    direction: rtl;
 }
 #Logo{
 margin-top: 5.3em;
@@ -151,7 +152,7 @@ footer{
 
 
     #Dropdown  div{
-        float: left;
+        float: right;
         width: 10em;
         height:5em;
     }
@@ -159,23 +160,21 @@ footer{
         position: relative;
     }
     .Language img{
-        float: right;
-        width: 7.5em;
+        float: left;
+        width: 8.5em;
         height: 60%;
         z-index: -1;
         position: relative;
-        left: 0;
-        top: 0;
-
     }
     .Language h5{
         color: white;
-        float: right;
+        float: left;
         font-size: 20px;
-        margin-top: 55px;
+        margin-top: 28px;
         z-index: 2;
         position: relative;
-        left: 82px; 
+        right: 115px;
+        text-shadow: 0px 0px 10px black;
     }
 
     nav a:link, a:visited {
