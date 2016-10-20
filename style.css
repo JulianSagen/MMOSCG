@@ -148,9 +148,11 @@ p{
     display: inline-block;
     width: 3em;
 }
-footer{
+#footer{
+    float:left;
     background-color: #1F1F1F;
-    display: flex;
+    width: 100%;
+    height:auto;
     padding: 1em ;
 }
 #Follow {
@@ -166,7 +168,7 @@ footer{
 }
 #About {
     bottom:0;
-    float:right;
+    float:left;
     font-family: Verdana;
     vertical-align: middle;
     margin-left:20px;
