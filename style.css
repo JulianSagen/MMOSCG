@@ -182,6 +182,18 @@ p{
     color: lightblue;
 }
 
+#Button1:hover {
+    transform:rotate(5deg);
+}
+
+#Button2:hover {
+    transform:rotate(-5deg);
+}
+
+#Button3:hover {
+    transform:rotate(5deg);
+}
+
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
 
 @media only screen and (min-width: 650px) {
