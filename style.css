@@ -121,13 +121,17 @@ p{
     height: auto;
     width: auto;
     background-color: white;
+    float: left;
 }
+
 .screenshot{
     float: right;
 }
 .screenshot img{
-    width: 400px;
+    width: 350px;
     height: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 #store{
     margin-bottom:20px;
@@ -205,8 +209,10 @@ p{
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
 
 @media only screen and (max-width: 650px) {
-    #Logo {
-
+    #Store img{
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
     }
 
 }
