@@ -17,6 +17,7 @@ nav {
     margin-right: 20px;
     display: inline-block;
     overflow:hidden;
+    z-index: 3;
 }
 
 nav div {
@@ -42,7 +43,6 @@ nav h1{
 margin-top: 5.3em;
 }
 #Logo img {
-    
     height: 12em;
     display: block;
     margin: 0 auto; 
@@ -120,28 +120,31 @@ p{
 div .text{
     margin-top: 5em;
     height: auto;
+    width: 60%;
     background-color: white;
     float: left;
-    width: 50%;
     padding: 1em;
     box-shadow: 2px 2px 10px black;
     margin-left: 4%;
     line-height: 300%;
     font-family: Calibri;
+    margin-bottom: 5em;
+    position: relative;
+    display: inline-block;
+    
 }
 div h2{
     color: red;
 }
 
 .screenshot{
-    
-}
-.screenshot img{
-    width: 39%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 2em;
     float: right;
-    max-width: 20em;
+    max-width: 15em;
+    position: absolute;
+    right: 10px;   
 }
 #store{
     margin-bottom:20px;
@@ -208,7 +211,7 @@ div h2{
 }
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 42em) {
     #Verticals{
         display:flex;
         align-items: center;
@@ -216,7 +219,7 @@ div h2{
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 41em) {
     #Store img{
         margin-left: auto;
         margin-right: auto;
