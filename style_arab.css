@@ -48,7 +48,7 @@ margin-top: 5.3em;
     margin: 0 auto; 
 }
 #Dropdown  div{
-        float: left;
+        float: right;
         width: 10em;
         height:5em;
     }
@@ -91,10 +91,10 @@ p{
     background-color:#ff3f3f;
 }
 .Language{
-        float: right;
+        float: left;
 }
 .Language img{
-    float: right;
+    float: left;
     width: 7.5em;
     z-index: -1;
     position: relative;
@@ -103,12 +103,14 @@ p{
 }
 .Language h5{
     color: white;
-    float: right;
+    float: left;
     font-size: 20px;
-    margin-top: 55px;
+    margin-top: 28px;
     z-index: 2;
     position: relative;
-    left: 82px; 
+    right: 95px; 
+    direction: rtl;
+    text-shadow: 0px 0px 10px black;
     }
 #bokstav{
     background-color:#1b63e8;
@@ -181,9 +183,10 @@ div h2{
     height:auto;
     padding: 1em;
     position: relative;
+    direction: rtl;
 }
 #footerLanguage h5{
-    float: right;
+    float: left;
     color: red;
     display: inline-block;
     font-size: 1em;
