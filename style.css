@@ -75,6 +75,7 @@ p{
 }
 #Content{
     background-color: #F7F7F7;
+    width: 100%;
 }
 .app{
     float: left;
@@ -146,8 +147,17 @@ div .text{
 }
 
 #Follow{
-    width: 20em;
     display: inline-block;
+    margin-left: 20px;
+    background-color: #eae8ff;
+    width:auto;
+    height:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    float:left;
+    border-radius: 20px;
+    padding:10px 40px;
+    font-family: Verdana;
 }
 
 .SocialIcon {
@@ -158,32 +168,35 @@ div .text{
 #footer{
     float:left;
     background-color: #1F1F1F;
-    width: 100%;
+    width: 97.5%;
     height:auto;
-    padding: 1em ;
+    padding: 1em;
+    position: relative;
 }
-#Follow {
-    background-color: #eae8ff;
-    width:auto;
-    height:auto;
-    margin-top:auto;
-    margin-bottom:auto;
-    float:right;
-    border-radius: 20px;
-    padding:10px;
-    font-family: Verdana;
+#footerLanguage h5{
+    float: right;
+    color: red;
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-top: 3%;
+    opacity: 0.5;
 }
+
 #About {
     bottom:0;
-    float:left;
+    float:right;
     font-family: Verdana;
     vertical-align: middle;
-    margin-left:20px;
-    margin-top:80px;
+    margin-top:-2%;
+    margin-right: 20%;
 }
 #About p{
     color: #ffffff;
     vertical-align: middle;
+    word-spacing: 5px;
+    line-height: 300%;
+
 }
 #About a{
     color: lightblue;
