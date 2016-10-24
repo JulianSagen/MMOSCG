@@ -71,7 +71,7 @@ h1{
 p{
     margin-top: 2em;
     color: black;
-    margin: 10px;
+ 
 }
 #Content{
     background-color: #F7F7F7;
@@ -116,22 +116,26 @@ p{
     background-color:#11c625;
    
 }
-.text{
-    display: inline-block;
+div .text{
+    margin-top: 5em;
     height: auto;
-    width: auto;
     background-color: white;
     float: left;
+    width: 50%;
+    padding: 1em;
+    border-radius: 30px;
+    margin-left: 4%;
 }
 
 .screenshot{
-    float: right;
+    
 }
 .screenshot img{
-    width: 350px;
+    width: 39%;
     height: auto;
     margin-bottom: 15px;
-    margin-top: 10px;
+    float: right;
+    max-width: 20em;
 }
 #store{
     margin-bottom:20px;
@@ -139,7 +143,6 @@ p{
 #store img{
     width: auto;
     height: 90px;
-    float: left;
 }
 
 #Follow{
