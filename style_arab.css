@@ -16,43 +16,66 @@ nav {
     top: 0;
     margin-right: 20px;
     display: inline-block;
+    overflow:hidden;
+    z-index: 3;
 }
 
 nav div {
   margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    }
+nav img{
+    height: 5em;
+}
+
 nav h1{
     text-align: center;
     font-size: 16px;
     padding: 10px 10px 0 10px;
-    direction: rtl;
+    margin-top: 12%;
+
 }
 #Logo{
 margin-top: 5.3em;
 }
-
 #Logo img {
-    
-    width: 12em;
+    height: 12em;
     display: block;
     margin: 0 auto; 
 }
-
-
+#Dropdown  div{
+        float: left;
+        width: 10em;
+        height:5em;
+    }
+#Button1{
+    background-color: #33ff33;
+}
+#Button2{
+    background-color: orange;
+}
+#Button3{
+    background-color: #6666ff;
+}
 h1{
     text-align: center;
     font-family: Verdana;
     font-weight: bold;
+    font-size: 16px;
 }
 
 p{
     margin-top: 2em;
     color: black;
-    margin: 10px;
+ 
 }
 #Content{
     background-color: #F7F7F7;
+    width: 100%;
 }
 .app{
     float: left;
@@ -62,11 +85,31 @@ p{
 }
 .app div{
     margin: 20px;
-    margin-bottom:5px;
+    margin-bottom:20px;
 }
 #lang{
     background-color:#ff3f3f;
 }
+.Language{
+        float: right;
+}
+.Language img{
+    float: right;
+    width: 7.5em;
+    z-index: -1;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.Language h5{
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-top: 55px;
+    z-index: 2;
+    position: relative;
+    left: 82px; 
+    }
 #bokstav{
     background-color:#1b63e8;
 }
@@ -74,20 +117,35 @@ p{
     background-color:#11c625;
    
 }
-.text{
-    display: inline-block;
+div .text{
+    margin-top: 5em;
     height: auto;
-    width: auto;
+    width: 60%;
     background-color: white;
-    float: right;
-    direction: rtl;
-}
-.screenshot{
     float: left;
+    padding: 1em;
+    box-shadow: 2px 2px 10px black;
+    margin-left: 4%;
+    line-height: 300%;
+    font-family: Calibri;
+    margin-bottom: 5em;
+    position: relative;
+    display: inline-block;
+    direction: rtl;
+    
 }
-.screenshot img{
-    width: 400px;
+div h2{
+    color: red;
+}
+
+.screenshot{
     height: auto;
+    margin-bottom: 10px;
+    margin-top: 2em;
+    float: right;
+    max-width: 15em;
+    position: absolute;
+    right: 10px;   
 }
 #store{
     margin-bottom:20px;
@@ -95,25 +153,11 @@ p{
 #store img{
     width: auto;
     height: 90px;
-    float: left;
 }
 
 #Follow{
-    width: 20em;
     display: inline-block;
-}
-
-.SocialIcon {
-    margin: 3px;
-    display: inline-block;
-    width: 3em;
-}
-footer{
-    background-color: black;
-    display: flex;
-    padding: 1em ;
-}
-#Follow {
+    margin-left: 20px;
     background-color: #eae8ff;
     width:auto;
     height:auto;
@@ -121,145 +165,68 @@ footer{
     margin-bottom:auto;
     float:left;
     border-radius: 20px;
-    padding:10px;
+    padding:10px 40px;
     font-family: Verdana;
 }
+
+.SocialIcon {
+    margin: 3px;
+    display: inline-block;
+    width: 3em;
+}
+#footer{
+    float:left;
+    background-color: #1F1F1F;
+    width: 97.5%;
+    height:auto;
+    padding: 1em;
+    position: relative;
+}
+#footerLanguage h5{
+    float: right;
+    color: red;
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-top: 3%;
+    opacity: 0.5;
+}
+
 #About {
     bottom:0;
     float:right;
     font-family: Verdana;
     vertical-align: middle;
-    margin-left:20px;
-    margin-top:80px;
+    margin-top:-2%;
+    margin-right: 20%;
 }
 #About p{
     color: #ffffff;
     vertical-align: middle;
+    word-spacing: 5px;
+    line-height: 300%;
+
 }
 #About a{
     color: lightblue;
 }
-
-
-
 /* CSS-en under blir bare kjørt dersom device width er over 650px (PC) */
 
-@media only screen and (min-width: 650px) {
-    nav {
-
-    }
-    nav h1{
-        margin-top: 12%;
-    }
-
-
-    #Dropdown  div{
-        float: right;
-        width: 10em;
-        height:5em;
-    }
-    .Language{
-        position: relative;
-    }
-    .Language img{
-        float: left;
-        width: 8.5em;
-        height: 60%;
-        z-index: -1;
-        position: relative;
-    }
-    .Language h5{
-        color: white;
-        float: left;
-        font-size: 20px;
-        margin-top: 28px;
-        z-index: 2;
-        position: relative;
-        right: 115px;
-        text-shadow: 0px 0px 10px black;
-    }
-
-    nav a:link, a:visited {
-        text-decoration: none;
-        color: black;
-    }
-
-    nav h1{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    #Button1 {
-        background-color: blue;
-        margin: 0;
-        overflow: hidden;
-        width: 20em;
-
-    }
-
-    #Button2 {
-        background-color:red;
-        margin:0;
-        overflow:hidden;
-        width: 20em;
-        text-align: center;
-    }
-
-    #Button3 {
-        background-color:green;
-        margin:0;
-        overflow:hidden;
-        width: 20em;
-    }
-
+@media only screen and (min-width: 42em) {
     #Verticals{
         display:flex;
         align-items: center;
     }
 
-
-
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
 
-@media only screen and (max-width: 650px) {
-    nav {
-        background-color: #E9EBEE;
-        height:70px;
-        width:100%;
-        float:left;
-        overflow:hidden;
-        position:fixed;
+@media only screen and (max-width: 41em) {
+    #Store img{
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
     }
-
-    #Button1 {
-        height:100%;
-        width:50px;
-        background-color:blue;
-        margin:0;
-        overflow:hidden;
-        float:left;
-    }
-    #Button2 {
-        height:100%;
-        width:50px;
-        background-color:red;
-        margin:0;
-        overflow:hidden;
-        float:left;
-    }
-    #Button3 {
-        background-color:green;
-
-    }
-    #Logo {
-        display:block;
-        height:70px;
-        float:right;
-    }
-       #Language{
-    height: 1em;
-    top: 0;
-
-}
+    
+    
 
 }
