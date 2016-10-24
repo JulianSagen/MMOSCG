@@ -43,7 +43,7 @@ margin-top: 5.3em;
 }
 #Logo img {
     
-    width: 12em;
+    height: 12em;
     display: block;
     margin: 0 auto; 
 }
@@ -217,5 +217,7 @@ div .text{
         margin-right: auto;
         align-content: center;
     }
+    
+    
 
 }
