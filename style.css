@@ -45,14 +45,41 @@ margin-top: 5.3em;
 #Logo img {
     height: 12em;
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-#Dropdown  div{
+.show-menu {
+  float: right;
+  height: 5em;
+  width: 7em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #19c589;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+input[type=checkbox]{
+    display: none;
+    }
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+    }
+#menu  div{
         float: left;
         width: 10em;
         height:5em;
     }
+ul{
+  list-style-type:none;
+  mragin:0;
+  padding:0;
+}
 #Button1{
+    float: left;
+    width: 10em;
+    height:5em;
     background-color: #33ff33;
 }
 #Button2{
@@ -71,7 +98,7 @@ h1{
 p{
     margin-top: 2em;
     color: black;
- 
+
 }
 #Content{
     background-color: #F7F7F7;
@@ -104,18 +131,20 @@ p{
 .Language h5{
     color: white;
     float: right;
-    font-size: 20px;
-    margin-top: 55px;
+    font-size: large;
+    margin-top: 57px;
     z-index: 2;
     position: relative;
-    left: 82px; 
+    left: 82px;
     }
+
+
 #bokstav{
     background-color:#1b63e8;
 }
 #bil{
     background-color:#11c625;
-   
+
 }
 div .text{
     margin-top: 5em;
@@ -131,7 +160,7 @@ div .text{
     margin-bottom: 5em;
     position: relative;
     display: inline-block;
-    
+
 }
 div h2{
     color: red;
@@ -144,7 +173,7 @@ div h2{
     float: right;
     max-width: 15em;
     position: absolute;
-    right: 10px;   
+    right: 10px;
 }
 #store{
     margin-bottom:20px;
@@ -216,16 +245,32 @@ div h2{
         display:flex;
         align-items: center;
     }
+  }
 
 /* CSS-en under blir bare kjørt dersom device width er under 650px (mobil) */
 
 @media only screen and (max-width: 41em) {
+
+nav	ul {
+		position: static;
+		display: none;
+	}
+  nav li {
+    display: none;
+  }
+nav  ul div{
+    display: none;
+  }
+
+	.show-menu {
+		display:block;
+	}
     #Store img{
         margin-left: auto;
         margin-right: auto;
         align-content: center;
     }
-    
-    
+
+
 
 }

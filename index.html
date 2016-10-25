@@ -14,18 +14,20 @@
 
       <nav>
           <!-- Colorized Menu buttons left side -->
-          <div id="Dropdown">
-            <div id="Button1"><a href="index.html"><img src="Images/LilB-small.png"</a></div>
-            <a href="resources.html"><div id="Button2"><h1>Resources</h1></div></a>
-            <a href="about.html"><div id="Button3"><h1>About us</h1></div></a>
-          </div>
+          <div id="Button1"><a href="index.html"><img src="Images/LilB-small.png"/></a></div>
+          <label for="show-menu" class="show-menu">Show Menu</label>
+          <input type="checkbox" id="show-menu" role="button">
+          <ul id="menu">
+            <li><a href="resources.html"><div id="Button2"><h1>Resources</h1></div></a></li>
+            <li><a href="about.html"><div id="Button3"><h1>About us</h1></div></a></li>
           <!-- Languages -->
-          <div class="Language">
+          <li class="Language"><div class="Language">
           	<a href="index_arabicNEW.html">
               <img id="Language" src="Images\syriskFlag.png" alt="Arabic Language"/>
               <h5>العربية</h5>
             </a>
-          </div>
+          </div></li>
+        </ul>
            <!-- <a href="index_ar.html">
               <img id="Language" src="Images\arabic_language.png" />
             </a> -->
