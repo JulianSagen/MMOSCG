@@ -114,26 +114,24 @@ p{
     background-color:#ff3f3f;
 }
 .Language{
-        float: right;
-}
-.Language img{
+    width: 120.02px;
+    height: 5em;
     float: right;
-    width: 7.5em;
-    z-index: -1;
-    position: relative;
-    left: 0;
-    top: 0;
 }
-.Language h5{
+#Language{
+  z-index: 3;
+}
+ h5{
     color: white;
     float: right;
-    font-size: large;
+    font-size: 1.2em;
     margin-top: 57px;
-    z-index: 2;
-    position: relative;
-    left: 82px;
+    position:absolute;
+    margin-left: 2em;
     }
-
+#arabic{
+  display: none;
+}
 
 #bokstav{
     background-color:#1b63e8;
@@ -255,6 +253,17 @@ div h2{
     width: 100%;
     height: 3.5em;
 
+  }
+#Language{
+  display: none;
+}
+  .Language{
+      width: 100%;
+      height: 3.5em;
+      float: left;
+  }
+  #arabic{
+    display:block;
   }
   input[type=checkbox]:checked ~ #menu{
       display: block;
