@@ -70,7 +70,7 @@ input[type=checkbox]{
     }
 ul{
   list-style-type:none;
-  mragin:0;
+  margin:0;
   padding:0;
 }
 #Button1{
@@ -285,6 +285,16 @@ nav h1{
         align-content: center;
     }
 
-
-
+.screenshot{
+    margin-top: 0em;
+    float:none;
+    position:relative;
+    right: 10%;
+    left: 10%;
+    }
+div .text{
+    width: auto;
+    float: auto;
+    margin-bottom: 2em;
+    position: relative;
 }
