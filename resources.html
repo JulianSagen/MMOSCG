@@ -10,55 +10,149 @@
         <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
 
-    <body>
+    <body style="background-color: #d8fcdc">
 
       <nav>
           <!-- Colorized Menu buttons left side -->
-          <div id="Button1"><a href="index.html"><h1>Button1</h1></a></div>
-          <div id="Button2"><a href="resources.html"><h1>Button2</h1></a></div>
-          <div id="Button3"><a href="about.html"><h1>Button3</h1></a></div>
-          <img src="http://www.vectortemplates.com/raster/batman/batman-logo-big.gif" id="Logo">
+          <div id="Button1"><a href="index.html"><img src="Images/LilB-small.png"/></a></div>
+          <label for="show-menu" class="show-menu"><img src="Images/hamburger.png"/></label>
+                    <input type="checkbox" id="show-menu" role="button">
+
+          <ul id="menu">
+            <li><a href="resources.html"><div id="Button2"><h1>Resources</h1></div></a></li>
+            <li><a href="about.html"><div id="Button3"><h1>About us</h1></div></a></li>
+          <!-- Languages -->
+          <li class="Language">
+            <a href="index_arabicNEW.html">
+            <div class="Language" id="flag">
+              <h5>العربية</h5>
+              <img id="Language" src="Images\syriskFlag.png" alt="Arabic Language"/>
+              <h1 id="arabic">Language: العربية</h5>
+            </div>
+          </a>
+          </li>
+        </ul>
+           <!-- <a href="index_ar.html">
+              <img id="Language" src="Images\arabic_language.png" />
+            </a> -->
+
       </nav>
 
-      <div id="Contentwrapper">
-        <!-- Button for changing language of site -->
-        <a href="index.html">
-          <img id="Language" src="Images\english_language.jpg" />
-        </a>
-        <a href="index_ar.html">
-          <img id="Language" src="Images\arabic_language.png" />
-        </a>
-        <!-- Content of website in center of screen-->
         <div id="Content">
-
-          <h1>Resources</h1>
-          <p>
-            <!-- Insert content -->
-          </p>
-
-          <h2><!-- Insert content --><h2>
-            <p>
-              <!-- Insert content -->
-            </p>
-            <p>
-              <!-- Insert content -->
-            </p>
-
+          <div class="app">
+            <div id="Logo">
+              <img src="Images/Lil-B-Banner-MM-6.png" alt="Logo">
+            </div>
+          </div>
+          <div class="app" id="lang">
+            <div class="text">
+                <h2>Welcome to Lil B’! </h2>
+<ul>
+	<li>Lil B’ is an app created to help children learn numbers, letters and elementary math and more in fun and easy way!</li>
+	<li>Games are designed for children up from 2 years old; [For kids of all ages!]</li>
+	<li>It consists of 6 fun and educational mini-games which makes it possible for children to progress at their own pace;</li>
+	<li>3 levels of difficultly are available to match needs and abilities of children in different age groups;</li>
+	<li>With Lil B’ your child will be able to build a strong foundation for reading, writing and math skills!</li>
+	<li>Helps develop motor skills, attention and memory!</li>
+	<li>All games and levels are accessible absolutely free!</li>
+</ul>
+            </div>
+              <img class="screenshot" src="Images/screenshot/langmob.png" alt="Choosing Language"/>
+          </div>
+          <div class="app" id="bokstav">
+            <div class="text">
+                <h2>Features</h2>
+              <ul>
+	<li>Lil B’ is an app created to help children learn numbers, letters and elementary math and more in fun and easy way!</li>
+	<li>Games are designed for children up from 2 years old; [For kids of all ages!]</li>
+	<li>It consists of 6 fun and educational mini-games which makes it possible for children to progress at their own pace;</li>
+	<li>3 levels of difficultly are available to match needs and abilities of children in different age groups;</li>
+	<li>With Lil B’ your child will be able to build a strong foundation for reading, writing and math skills!</li>
+	<li>Helps develop motor skills, attention and memory!</li>
+	<li>All games and levels are accessible absolutely free!</li>
+</ul>
+            </div>
+              <img class="screenshot" src="Images/screenshot/bokstavmob.png" alt="Writing letters"/>
+          </div>
+          <div class="app" id="bil">
+            <div class="text">
+                <h2>6-mini games</h2>
+             <ul>
+	<li>Matching Shapes and Colors</li>
+	<li>Learning Numbers and Counting </li>
+	<li>Learning Alphabet</li>
+	<li>Learning names of Bugs, Animals, Flowers, Vehicles and Weather</li>
+	<li>Spelling (4 main themes: Animals, Flowers, Vehicles and Weather)</li>
+	<li>Learning Elementary Math (addition and subtraction)</li>
+</ul>
+            </div>
+              <img class="screenshot" src="Images/screenshot/bilmob.png" alt="Identify objects"/>
+          </div>
+          <div class="app">
+            <div id="store">
+              <a href="https://play.google.com/store/apps"><img src="Images/store/android/playstoreeng.svg" alt="Google Play Store"></a>
+              <a href="https://www.appstore.com/"><img src="Images/store/apple/appstoreeng.svg" alt="Apple App Store"></a>
+              <a href="https://www.microsoft.com/en-gb/store/apps/windows-phone"><img src="Images/store/win/wineng.svg" alt="Microsoft Store"></a>
+            </div>
+          </div>
         </div>
 
-        <!-- Footerbar in bottom of screen -->
-        <footer>
-          <div>
-            <a href="https://www.facebook.com/"><img src=".png"/></a>
-            <a href="https://twitter.com/"><img src=".png"/></a>
-            <a href="https://snapchat.com/"><img src=".png"/></a>
-            <a href="https://plus.google.com/"><img src=".png"/></a>
+
+        <!-- vv Footer at bottom of screen vv -->
+        <div id="footer">
+
+
+          <div id="About">
+            <p>
+            <a href="mailto:s309732@stud.hioa.no?Subject=Question%20about%20LilB">Contact Us</a>
+            <br>
+            © 2016 Oslo and Akershus University College of Applied Sciences
+            <br>
+            Created by Yanislav, Julian, Ismail, Bas, Maria, Ida, Fawad, Jonas, Sahand and Irfan
+            </p>
           </div>
-          <div>
-            <p>© 2016 Oslo and Akershus University College of Applied Sciences</p>
-            <a href="mailto:s309732@stud.hioa.no">Contact</a>
+          <div id="Follow">
+            <table>
+              <tr>
+                <th colspan="2">Media</th>
+              </tr>
+              <tr class="imgs">
+                <td>
+                  <a class="SocialIcon" href="https://www.facebook.com/">
+                  <img src="Images/social/Facebook.svg" alt="Facebook"/>
+                </a>
+                </td>
+                <td>
+                  <a class="SocialIcon" href="https://twitter.com/">
+                    <img style="width: 4em" src="Images/social/Twitter.svg" alt="Twitter"/>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a  href="https://snapchat.com/">
+                    <img class="SocialIcon" src="Images/social/Snapchat.svg" alt="Snapchat"/>
+                  </a>
+                </td>
+                <td>
+                  <a  href="https://rss.com/">
+                    <img class="SocialIcon" src="Images/social/RSS%20feed.svg" alt="RSS"/>
+                  </a>
+                </td>
+              </tr>
+            </table>
           </div>
-        </footer>
+          <div id="footerLanguage">
+            <a href="index_arabicNEW.html">
+              <h5>العربية</h5>
+            </a>
+              <br>
+             <a href="#">
+              <h5>ENGLISH</h5>
+            </a>
+        </div>
+
+        </div>
 
       </div>
 
