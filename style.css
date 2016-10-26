@@ -28,7 +28,12 @@ nav div {
 a{
     text-decoration: none;
     color: black;
-    }
+}
+
+.text a{
+    text-decoration: underline;
+    color: blue;
+}
 nav img{
     height: 5em;
 }
@@ -298,3 +303,11 @@ div .text{
     margin-bottom: 2em;
     position: relative;
 }
+    
+    .link {
+        color: red;
+    }
+
+    ol a{
+        color:red;
+    }
